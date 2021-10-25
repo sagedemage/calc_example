@@ -8,7 +8,7 @@ def inc(x_value):
 
 class Calculator:
     """Calculator class"""
-    result = 2
+    result = 0
 
     def get_result(self):
         """Get result fo calculator"""
@@ -31,8 +31,6 @@ class Calculator:
 
     def divide_number(self, value2):
         """Divide a Number"""
-        if value2 != 0:
-            self.result = self.result / value2
-        else:
-            raise ZeroDivisionError("Can't divide by zero!")
+        assert value2 != 0
+        self.result = self.result / value2
         return self.result
