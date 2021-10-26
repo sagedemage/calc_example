@@ -1,7 +1,7 @@
 # Calculator Project
 [![Build Status](https://app.travis-ci.com/sagedemage/calc_example.svg?branch=main)](https://app.travis-ci.com/sagedemage/calc_example.svg?branch=main)
 
-This is a simple calculator program.
+**This is a simple calculator program.**
 
 ## Pytest using Pylint and Coverage
 To run tests, Lint, and Coverage report use this command:
