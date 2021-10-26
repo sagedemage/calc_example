@@ -15,6 +15,13 @@ def test_get_result():
     assert calc.get_result() == 1
 
 
+def test_set_result():
+    """Testing set_result method"""
+    calc = Calculator()
+    calc.set_result(5)
+    assert calc.result == 5
+
+
 def test_addition():
     """Testing addition method"""
     calc = Calculator()
