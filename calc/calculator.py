@@ -20,8 +20,7 @@ class Calculator:
     @staticmethod
     def add_number(value_a, value_b):
         """adds two numbers"""
-        result = Addition.add(value_a, value_b)
-        return result
+        return Addition.add(value_a, value_b)
 
     @staticmethod
     def subtract_number(value_a, value_b):
@@ -36,9 +35,4 @@ class Calculator:
     @staticmethod
     def divide_number(value_a, value_b):
         """Divide a Number"""
-        try:
-            result = Division.divide(value_a, value_b)
-        except ZeroDivisionError as message:
-            mes = message
-            print(mes)
-        return result
+        return Division.divide(value_a, value_b)

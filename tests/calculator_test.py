@@ -21,9 +21,3 @@ def test_set_result():
     calc1 = Calculator()
     calc1.set_result(5)
     assert calc1.result == 5
-
-
-def test_division_by_zero():
-    """Testing dividing by zero"""
-    calc1 = Calculator()
-    calc1.divide_number(0)
