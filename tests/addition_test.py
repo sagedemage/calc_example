@@ -4,5 +4,5 @@ from calc.operations.addition import Addition
 
 
 def test_addition():
-    """testing calc result is 0"""
+    """Testing addition method"""
     assert Addition.add(1, 2) == 3

@@ -4,5 +4,5 @@ from calc.operations.multiplication import Multiplication
 
 
 def test_multiplication():
-    """testing calc result is 0"""
-    assert Multiplication.add(1, 2) == 3
+    """Testing multiplication method"""
+    assert Multiplication.multiply(1, 2) == 2

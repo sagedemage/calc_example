@@ -1,8 +1,8 @@
 """ content of calculator.py"""
-from operations.subtraction import Subtraction
-from operations.addition import Addition
-from operations.multiplication import Multiplication
-from operations.division import Division
+from calc.operations.subtraction import Subtraction
+from calc.operations.addition import Addition
+from calc.operations.multiplication import Multiplication
+from calc.operations.division import Division
 
 
 class Calculator:
@@ -20,23 +20,24 @@ class Calculator:
     @staticmethod
     def add_number(value_a, value_b):
         """adds two numbers"""
-        return Addition.add(value_a, value_b)
+        result = Addition.add(value_a, value_b)
+        return result
 
     @staticmethod
     def subtract_number(value_a, value_b):
         """Subtract a Number"""
-        return Subtraction(value_a, value_b)
+        return Subtraction.subtract(value_a, value_b)
 
     @staticmethod
     def multiply_number(value_a, value_b):
         """Multiply a Number"""
-        return Multiplication(value_a, value_b)
+        return Multiplication.multiply(value_a, value_b)
 
     @staticmethod
     def divide_number(value_a, value_b):
         """Divide a Number"""
         try:
-            result = Division(value_a, value_b)
+            result = Division.divide(value_a, value_b)
         except ZeroDivisionError as message:
             mes = message
             print(mes)
