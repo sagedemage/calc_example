@@ -30,6 +30,9 @@ class Calculator:
 
     def divide_number(self, value):
         """Divide a Number"""
-        assert value != 0
-        self.result = self.result / value
+        try:
+            self.result = self.result / value
+        except ZeroDivisionError as message:
+            mes = message
+            print(mes)
         return self.result
