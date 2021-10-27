@@ -47,9 +47,11 @@ def test_division():
     """Testing division method"""
     calc = Calculator()
     calc.divide_number(1)
+    assert calc.result == 0
 
 
 def test_division_by_zero():
     """Testing dividing by zero"""
     calc = Calculator()
     calc.divide_number(0)
+    assert calc.result == 0
