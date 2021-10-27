@@ -1,5 +1,6 @@
 """Import the calculator class"""
-from calculator.main import Calculator
+
+from calc.calculator import Calculator
 
 
 def test_calculator():
