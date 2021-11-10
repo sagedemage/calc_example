@@ -1,5 +1,5 @@
 # Calculator Project
-[![Build Status](https://app.travis-ci.com/sagedemage/calc_example.svg?branch=main)](https://app.travis-ci.com/sagedemage/calc_example.svg?branch=main)
+[![Build Status](https://app.travis-ci.com/sagedemage/calc_example.svg?branch=main)](https://app.travis-ci.com/github/sagedemage/calc_example)
 
 **This is a simple calculator program.**
 
